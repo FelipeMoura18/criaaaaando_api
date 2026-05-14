@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consumindo API</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sistemas de pedido</h1>
+        <!--casatro-->
+
+        <h2>Novo pedido </h2>
+        <input type="text" id="cliente" placeholder="nome do cliente">
+        <input type="text " id="produto" placeholder="produto">
+        <button onclick=""> Catrar pedido</button>
+       
+           <!---atualizar--->
+        <h2>Atualizar status</h2>
+        <input type="number" id="idAtualizar" placeholder="Id do pedido">
+        <input type="text " id="statusAtualizar"  placeholder="novo status">
+        <button onclick=""> Atualizar</button>
+
+        <!---excluir--->
+        <h2>Cancelar pedido</h2>
+        <input type="number" id="idRemover" placeholder="ID do pedido">
+        <button onclick=""> Cancelar</button>
+
+        <!--pedidos-->
+
+        <h2>lista de pedidos</h2>
+        <ul id="lista"> carregando pedidos...</ul>
+    
+    
+    
+    
+    
+    
+    </div>        
+    <script src="script.js"> </script>
+</body>
+</html>
